@@ -1,0 +1,17 @@
+
+procedure array X , Y , XY 	;
+
+        in X, Y;
+		
+		while (X === 0) begin
+		
+			Y = Y * Y;
+			X = X - 1;
+			
+		;
+		
+		out Y;
+		 
+		
+end  
+      

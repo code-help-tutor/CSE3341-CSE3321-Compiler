@@ -1,0 +1,12 @@
+procedure c26 is
+	array x;
+	integer n;
+begin
+	x := new integer[1];
+	x := 4;
+	while not x = 0 do
+		in(n);
+		x := x-1;
+		out(n);
+	end
+end

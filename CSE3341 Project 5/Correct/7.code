@@ -1,0 +1,15 @@
+procedure t7 is
+	integer x;
+	integer y;
+	record a;
+	record b;
+begin
+	x := 10;
+	y := 1;
+	while y < x do
+		a := record b;
+		a := new record[1];
+		a[0] := 100;
+		y := y+1;
+	end
+end

@@ -1,0 +1,21 @@
+procedure test23 is
+	integer x;
+	integer y;
+	integer z;
+	integer a;
+	integer b;
+	integer c;
+begin
+	x := 5;
+	y := 10;
+	if not x < y then
+		while (0 - 10) < x do
+			x:=x - 1;
+		end
+	else
+		while y < 15 do
+			y:=y+2;
+		end
+	end
+	out(y);
+end

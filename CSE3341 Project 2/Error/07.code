@@ -1,0 +1,6 @@
+procedure err07 is
+	integer x;
+begin
+	in(x);
+	x=10;
+end

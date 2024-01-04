@@ -1,0 +1,10 @@
+
+program int X , Y , XY 	; a ( b, c, d) begin a=a+b+c; ;begin
+
+          X = 0;
+		  
+		  output X;
+
+          end  
+      
+and instance

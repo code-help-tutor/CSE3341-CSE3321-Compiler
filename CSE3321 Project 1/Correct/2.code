@@ -1,0 +1,9 @@
+
+array int X , Y , XY 	; begin
+
+          X = 0;
+		  
+		  new[10] X;
+
+          end  
+      

@@ -1,0 +1,10 @@
+procedure test6 is
+begin
+	integer x;
+	integer y;
+	while 1 < 1 do
+		x := 1;
+		y := x;
+	end
+	out(4);
+end

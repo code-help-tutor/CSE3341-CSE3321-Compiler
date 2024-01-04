@@ -1,0 +1,12 @@
+procedure test25 is
+	integer x;
+	integer n;
+begin
+	n := 5;
+	x := 4;
+	while not x=0 do
+		n := n*x;
+		x := x-1;
+		out(n);
+	end
+end

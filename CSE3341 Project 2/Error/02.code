@@ -1,0 +1,9 @@
+procedure err02 is
+	integer x;
+begin
+	if x=x then
+		array y;
+		out(x);
+	end
+	x:=y;
+end

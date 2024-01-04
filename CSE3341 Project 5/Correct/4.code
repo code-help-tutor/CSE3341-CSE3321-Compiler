@@ -1,0 +1,17 @@
+procedure t4 and
+	procedure A(x) is
+		integer y;
+	begin
+		out(x);
+	end
+is
+	integer a;
+	integer b;
+	record z;
+begin
+	a := 5;
+	b := 10;
+	z := new record[1];
+	z[0] := a+b;
+	begin A(z);
+end

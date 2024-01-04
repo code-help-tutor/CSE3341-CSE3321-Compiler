@@ -1,0 +1,26 @@
+
+program int X , Y, Z;
+
+        input X, Y, Z;
+		
+		while not (X := 0) begin
+		
+			output Y;
+		
+			while Y < 10 begin
+				
+				Y := Y + 1;
+				
+			;
+			
+			output Y;
+			
+			Y := Z
+			
+			X := X - 1;
+			
+		;
+		
+		
+end  
+      

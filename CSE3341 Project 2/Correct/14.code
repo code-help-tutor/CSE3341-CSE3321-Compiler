@@ -1,0 +1,13 @@
+procedure test14 is
+	integer x;
+	integer y;
+begin
+	x := 10;
+	y := x;
+	if x=y then
+		integer z;
+		z := x + y;
+		out(z);
+	end
+	out(y);
+end

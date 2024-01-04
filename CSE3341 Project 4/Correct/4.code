@@ -1,0 +1,10 @@
+procedure c4 is
+	procedure A ( r ) is 
+		r := 0; 
+	end 
+	array x;
+begin
+	x := new integer[1];
+	x[0] := 1;
+	out(4);
+end

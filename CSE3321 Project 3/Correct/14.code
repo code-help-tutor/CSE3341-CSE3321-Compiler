@@ -1,0 +1,11 @@
+procedure c14 is
+	integer x;
+	integer y;
+begin
+	x := 10;
+	y := 5;
+	if x = y then
+		out(x);
+	end
+	out(y);
+end

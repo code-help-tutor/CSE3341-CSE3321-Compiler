@@ -1,0 +1,6 @@
+procedure c10 is
+	integer x;
+begin
+	x := 1-1-1-1;
+	out(x);
+end

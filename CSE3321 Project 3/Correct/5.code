@@ -1,0 +1,6 @@
+procedure c5 is
+begin
+	integer x;
+	x := 5;
+	out(x);
+end

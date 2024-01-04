@@ -1,0 +1,6 @@
+procedure e03 is
+	array x;
+begin
+	x := new integer[5];
+	x[5] := 1;
+end

@@ -1,0 +1,15 @@
+procedure c7 is
+	procedure A ( r ) is 
+		r[0] := 9;
+	end
+	procedure B ( s ) is
+		s[0] := 7;
+		begin A(s);
+	end
+begin
+	array q;
+	q := new integer[1];
+	q[0] := 5;
+	begin B(q);
+	out(q[0]);
+end

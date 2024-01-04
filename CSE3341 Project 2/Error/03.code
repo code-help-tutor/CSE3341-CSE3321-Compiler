@@ -1,0 +1,7 @@
+procedure err03 is
+	integer x;
+	integer x;
+begin
+	x:=1;
+	x:=x+x*x;
+end

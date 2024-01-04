@@ -1,0 +1,5 @@
+procedure test7 is
+	integer x;
+begin
+	in(x);
+end

@@ -1,0 +1,13 @@
+procedure err1 and
+	procedure A( r ) is
+		integer x;
+	begin
+		x := r[0];
+	end
+is
+	record x;
+begin
+	x := new record[1];
+	x[0] := 5;
+	begin B(x);
+end

@@ -1,0 +1,6 @@
+procedure test3 is
+	integer x;
+begin
+	x:=1;
+	x:=x+x*x;
+end

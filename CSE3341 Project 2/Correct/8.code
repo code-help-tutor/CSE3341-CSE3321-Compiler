@@ -1,0 +1,12 @@
+procedure test8 is
+	integer x;
+	integer y;
+	integer z;
+	array a;
+	array b;
+	array c;
+begin
+	in(x);
+	out(4);
+	a:=new integer[3];
+end

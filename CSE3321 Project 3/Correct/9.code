@@ -1,0 +1,9 @@
+procedure c9 is
+	array y;
+begin
+	array x;
+	x := new integer[1];
+	y := array x;
+	x[0] := 5;
+	out(y[0]);
+end

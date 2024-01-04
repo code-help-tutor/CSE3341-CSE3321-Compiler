@@ -1,0 +1,19 @@
+procedure c21 is 
+	integer a;
+	integer b;
+	integer c;
+begin
+	array x;
+	array y;
+	array z;
+	x := new integer[1];
+	y := new integer[1];
+	z := new integer[1];
+	x := 5;
+	y := 2;
+	z := x - y * 5 - 5;
+	a := z;
+	b := z;
+	c := x + y - z * (a * b);
+	out(c);
+end

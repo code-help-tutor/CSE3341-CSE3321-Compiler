@@ -1,0 +1,5 @@
+procedure err10 is
+	integer x;
+begin
+	x := 1 + 2);
+end

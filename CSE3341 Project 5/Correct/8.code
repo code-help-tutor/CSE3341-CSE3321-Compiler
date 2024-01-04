@@ -1,0 +1,19 @@
+procedure t8 and
+	procedure A(r) is
+		record n;
+	begin
+		if r < 1 then
+			out(r);
+		else
+			n := new record[1];
+			n[0] := r-1;
+			begin A(n);
+		end
+	end
+is
+	record r;
+begin
+	r := new record[1];
+	r[0] := 5;
+	begin A(r);
+end

@@ -1,0 +1,9 @@
+program {
+	A(ref r) { r=0; }
+	ref x;
+begin {
+	x = new instance;
+	x=1;
+	begin B(x);
+	output(4);
+}}

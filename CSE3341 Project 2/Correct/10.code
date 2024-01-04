@@ -1,0 +1,8 @@
+procedure test10 is
+	integer x;
+	array a;
+begin
+	x:=1-1-1-1;
+	out(x);
+	a[2]:=a[1];
+end

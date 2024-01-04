@@ -1,0 +1,10 @@
+procedure err05 is
+	integer x;
+	array y;
+begin
+	if 1=1 then
+		x := new integer[2];
+	else
+		y := new integer[2];
+	end
+end

@@ -1,0 +1,16 @@
+procedure c25 is
+	array x;
+	array y;
+begin
+	array n;
+	x := new integer[1];
+	n := new integer[1];
+	n := 5;
+	x := 4;
+	y := array x;
+	while not x = 0 do
+		n := n*x;
+		y := y-1;
+		out(n);
+	end
+end

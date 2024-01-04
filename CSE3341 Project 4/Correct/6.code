@@ -1,0 +1,20 @@
+procedure c6 is
+	procedure x ( x, y ) is
+		if y[0]<1 then
+			x[0] := 0; 
+		else 
+			y[0] := y[0]-1; 
+			begin x(x, y); 
+		end
+	end
+	array a;
+	array b;
+begin
+	a := new integer[1];
+	b := new integer[1];
+	a[0] := 10;
+	b[0] := 5;
+	begin x(a, b);
+	out(a);
+	out(b);
+end

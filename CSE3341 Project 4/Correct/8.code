@@ -1,0 +1,23 @@
+procedure c8 is
+	procedure A ( r, s ) is
+		r[0] := 3; 
+		s[0] := 5; 
+	end
+	procedure B ( r, s ) is
+		r[0] := 7; 
+		s[0] := 11; 
+	end
+begin
+	array x;
+	array y;
+	x := new integer[1];
+	y := new integer[1];
+	x[0] := 1;
+	y[0] := 1;
+	begin A(x, y);
+	out(x[0]);
+	out(y[0]);
+	begin B(x, y);
+	out(x[0]);
+	out(y[0]);
+end

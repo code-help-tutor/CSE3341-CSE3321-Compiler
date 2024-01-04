@@ -1,0 +1,10 @@
+procedure e01 is
+	integer x;
+	integer	y;
+begin
+	x := 100;
+	while 0<x do
+		in(y);
+		x := x-1;
+	end
+end

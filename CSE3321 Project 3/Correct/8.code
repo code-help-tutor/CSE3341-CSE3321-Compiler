@@ -1,0 +1,7 @@
+procedure c8 is
+	array x;
+begin
+	x := new integer[1];
+	x := 5;
+	out(x);
+end

@@ -1,0 +1,6 @@
+procedure test11 is
+	integer x;
+begin
+	x:=1*2*3*4;
+	out(x);
+end

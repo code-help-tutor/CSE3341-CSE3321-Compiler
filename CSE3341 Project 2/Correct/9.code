@@ -1,0 +1,6 @@
+procedure test9 is
+	integer x;
+begin
+	x := 10;
+	out(x);
+end

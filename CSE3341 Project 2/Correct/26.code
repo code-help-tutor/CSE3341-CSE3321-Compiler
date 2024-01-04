@@ -1,0 +1,11 @@
+procedure test26 is
+	integer x;
+	integer n;
+begin
+	x := 4;
+	while not x=0 do
+		in(n);
+		x := x-1;
+		out(n);
+	end
+end

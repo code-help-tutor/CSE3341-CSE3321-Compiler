@@ -1,0 +1,25 @@
+
+program int X Y XY 	;
+
+          begin input X ; Y  := 0 ;
+     
+	 
+
+EOS
+
+                              input XY, Y ; output XY ;
+
+                              Y  ::= Y + XY ; X  := X - 1 ;
+	 
+               while ! (0 < X) begin
+
+                              input XY ; output XY ;
+
+                              Y  := Y + XY ; X  := X - 1 ;
+
+		 ;   
+
+	       output Y ;
+
+          end  
+      

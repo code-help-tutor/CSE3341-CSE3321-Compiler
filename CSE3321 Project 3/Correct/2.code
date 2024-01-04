@@ -1,0 +1,9 @@
+procedure c2 is
+	integer x;
+begin
+	if 5 = 5 then
+		out(3);
+	else
+		out(7);
+	end
+end

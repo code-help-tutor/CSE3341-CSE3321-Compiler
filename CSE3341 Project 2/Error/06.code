@@ -1,0 +1,7 @@
+procedure err06 is
+	integer x;
+begin
+	if 1 < 1 do
+		x = 1;
+	end
+end

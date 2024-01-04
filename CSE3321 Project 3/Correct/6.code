@@ -1,0 +1,7 @@
+procedure c6 is
+	array x;
+begin
+	x := new integer[1];
+	x[0] := 5;
+	out(x[0]);
+end

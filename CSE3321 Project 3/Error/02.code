@@ -1,0 +1,5 @@
+procedure e02 is
+	array x;
+begin
+	x := 1;
+end

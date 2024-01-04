@@ -1,0 +1,18 @@
+procedure test15 is
+	integer x;
+	integer y;
+begin
+	x := 1;
+	y := 1;
+	if x=y then
+		x:=0;
+		if x<y then
+			x := 10;
+		end
+	else
+		if x<y then
+			x := 5;
+		end
+	end
+	out(x);
+end

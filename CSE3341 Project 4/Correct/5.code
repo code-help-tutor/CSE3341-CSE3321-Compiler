@@ -1,0 +1,16 @@
+procedure c5 is
+	procedure A ( r, s ) is 
+		r[0] := 0; 
+		s[0] := 0; 
+	end
+begin
+	array x;
+	array y;
+	x := new integer[1];
+	y := new integer[1];
+	x[0] := 1;
+	y[0] := 1;
+	begin A(x, y);
+	out(x[0]);
+	out(y[0]);
+end

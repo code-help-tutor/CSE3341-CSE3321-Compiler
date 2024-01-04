@@ -1,0 +1,12 @@
+procedure c27 is
+	array x;
+	array y;
+begin
+	x := new integer[1];
+	x := 4;
+	y := array x;
+	while not x = 0 do
+		y := y-1;
+	end
+	out(x);
+end

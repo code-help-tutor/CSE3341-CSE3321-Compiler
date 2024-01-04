@@ -1,0 +1,22 @@
+procedure c22 is
+	array x;
+	array y;
+	array z;
+begin
+	x := new integer[1];
+	y := new integer[1];
+	x := 5;
+	y := 10;
+	if x < y then
+		while (0 - 10) < x do
+			integer a;
+			integer b;
+			integer c;
+			x := x - 1 + a + b + c;
+			a := 5;
+			b := 5;
+			c := 5;
+		end
+	end
+	out(x);
+end

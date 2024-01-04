@@ -1,0 +1,7 @@
+procedure t2 is
+	record y;
+begin
+	y := new record[1];
+	y[0] := 10;
+	out(y);
+end

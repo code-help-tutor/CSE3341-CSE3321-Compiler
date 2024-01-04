@@ -1,0 +1,15 @@
+procedure c3 is
+	procedure x ( a, b ) is 
+		a[0] := b[0]; 
+	end 
+	array x;
+	array y;
+begin
+	x := new integer[1];
+	y := new integer[1];
+	x[0] := 1;
+	y[0] := 2;
+	begin x(x, y);
+	out(x[0]);
+	out(y[0]);
+end

@@ -1,0 +1,18 @@
+procedure t6 and
+	procedure add(a, b) is
+		record n;
+	begin
+		a[0] := a[0]+b[0];
+		b := record n;
+	end
+is
+	record x;
+	record y;
+begin
+	x := new record[1];
+	x[0] := 1;
+	y := new record[1];
+	y := 1+x;
+	begin add(x, y);
+	out(x);
+end

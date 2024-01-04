@@ -1,0 +1,20 @@
+procedure test16 is
+	integer x;
+	integer y;
+	integer z;
+begin
+	x := 5;
+	y := 10;
+	z := 100;
+	while not x=0 do
+		x := x-1;
+		while not y=100 do
+			y := y+1;
+			while 0 < z do
+				z := z-1;
+			end
+		end
+		out(x);
+	end
+	out(x);
+end

@@ -1,0 +1,8 @@
+program {
+	A(ref x, x) { r=0; }
+	int x;
+begin {
+	x=1;
+	begin A(x, x);
+	output(4);
+}}

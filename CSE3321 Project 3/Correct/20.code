@@ -1,0 +1,13 @@
+procedure c20 is
+	array x;
+	array y;
+	array z;
+begin
+	x := new integer[1];
+	y := new integer[1];
+	z := new integer[1];
+	x := 5;
+	y := 10;
+	z := x - y * 5 - 5;
+	out(z);
+end

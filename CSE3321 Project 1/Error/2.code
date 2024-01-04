@@ -1,0 +1,10 @@
+
+program int X  Y  XY 	;
+
+          X = 0;
+		  
+		  output X;
+
+          end  
+      
+what is this doing here?

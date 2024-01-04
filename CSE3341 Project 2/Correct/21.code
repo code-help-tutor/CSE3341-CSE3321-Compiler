@@ -1,0 +1,16 @@
+procedure test21 is
+	integer x;
+	integer y;
+	integer z;
+begin
+	x := 5;
+	y := 2;
+	z := x - y * 5 - 5;
+	integer a;
+	integer b;
+	integer c;
+	a := z;
+	b := z;
+	c := x + y - z * (a * b);
+	out(c);
+end

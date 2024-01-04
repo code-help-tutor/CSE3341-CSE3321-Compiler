@@ -1,0 +1,10 @@
+procedure t3 is
+	integer x;
+	record y;
+	record z;
+begin
+	y := new record[1];
+	y[0] := 10;
+	z := record y;
+	out(z[0]);
+end

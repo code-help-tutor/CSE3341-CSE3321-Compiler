@@ -1,0 +1,21 @@
+procedure t5 and
+	procedure A(x) is
+		record y;
+	begin
+		y := new record[1]; 
+		y[0] := 8; 
+		out(x); 
+		x := record y; 
+	end
+is
+	integer m;
+	integer n;
+	record z;
+begin
+	m := 10;
+	n := 5;
+	z := new record[1];
+	z[0] := m+n;
+	begin A(z);
+	out(m);
+end

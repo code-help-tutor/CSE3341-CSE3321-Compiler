@@ -1,0 +1,10 @@
+procedure err0 is
+	procedure A ( r ) is
+	end
+	array x;
+begin
+	x := new integer[1];
+	x := 1;
+	begin A(x);
+	out(4);
+end

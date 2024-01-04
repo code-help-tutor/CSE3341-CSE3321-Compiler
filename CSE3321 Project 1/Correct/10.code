@@ -1,0 +1,1 @@
+if (x == y) then in x; else out x;
